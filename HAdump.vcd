@@ -1,0 +1,47 @@
+$date
+	Sun Aug  5 08:37:04 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module ha_test $end
+$var wire 1 ! exptC $end
+$var wire 1 " exptS $end
+$var wire 1 # opS $end
+$var wire 1 $ opC $end
+$var reg 1 % A $end
+$var reg 1 & B $end
+$scope module test $end
+$var wire 1 % A $end
+$var wire 1 & B $end
+$var wire 1 $ carry $end
+$var wire 1 # sum $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#4
+1#
+1"
+1%
+#6
+1&
+0%
+#8
+0#
+1$
+1!
+0"
+1%
+#16

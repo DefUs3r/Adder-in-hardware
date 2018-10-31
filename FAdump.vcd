@@ -1,0 +1,94 @@
+$date
+	Sun Aug  5 08:39:18 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module fa_test $end
+$var wire 1 ! exptS $end
+$var wire 1 " opS $end
+$var wire 1 # opC $end
+$var wire 1 $ exptC $end
+$var reg 1 % A $end
+$var reg 1 & B $end
+$var reg 1 ' C $end
+$scope module test $end
+$var wire 1 % A $end
+$var wire 1 & B $end
+$var wire 1 # C_next $end
+$var wire 1 ' C_prev $end
+$var wire 1 ( tmpC $end
+$var wire 1 ) tmpS $end
+$var wire 1 " S $end
+$scope module HA1 $end
+$var wire 1 % A $end
+$var wire 1 & B $end
+$var wire 1 ( carry $end
+$var wire 1 ) sum $end
+$upscope $end
+$scope module HA2 $end
+$var wire 1 ) A $end
+$var wire 1 ' B $end
+$var wire 1 ( carry $end
+$var wire 1 " sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#4
+1"
+1!
+1'
+#6
+1)
+0'
+1&
+#8
+1#
+0"
+x(
+1$
+0!
+1'
+#10
+0#
+1"
+0(
+0$
+1!
+0'
+0&
+1%
+#12
+1#
+0"
+x(
+1$
+0!
+1'
+#14
+0)
+x(
+1$
+0'
+1&
+#16
+1"
+1!
+1'
+#24
